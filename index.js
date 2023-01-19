@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.static("./public"));
 
-app.listen(5001, () => {
+app.listen(80, () => {
   console.log("APP is running on 5001");
 });
 
